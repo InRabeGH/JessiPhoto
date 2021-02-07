@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../fonts/CenturyGothic.ttf");
+}
+
+body {
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: 'CenturyGothic', sans-serif;
+    color: #7A674E;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.fondo-pantalla {
+    background-color: #F2F0DD;
+    position: relative;
+}
+
+.cabecera {
+    padding: 10px;
+    background: #F2F0DD;
+}
+
+.cabecera a {
+    color: #7A674E;
+}
+
+.cabecera img.logo {
+    padding: 0%;
+    width: 15%;
+}
+.cabecera i.menu-icono {
+    font-size: 30px;
+    color: #7A674E;
+}
+/*.tituloCategoria {
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 5px #333A56;
+    letter-spacing: 10px;
+    -webkit-transition:all ease-in-out 3s;
+    transition: all ease-in-out 3s;
+  }
+  .tituloCategoria:hover {
+    text-shadow: 4px 4px 10px #8e92a3;
+    letter-spacing: 15px;
+    font-weight: 900;
+    text-align: center;
+  }*/
+
+.alturaPantallaCarrucel {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-right: 10px;
+ }
+
+.derecho{
+    text-align: right;
+    float: right;
+}
+
+.deep-footer{
+    bottom: 0;
+    padding: 10px;
+    background: #F2F0DD;
+    text-align: center;
+}
+
+.deep-footer a {
+    color: #7A674E;
+}
+
+.deep-footer .btn-inicio-footer{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.deep-footer .btn-titulo-footer{
+    font-size: 30px;
+    color: #7A674E;
+}
+.deep-footer .btn-arriba-footer{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.menu-social {
+    margin: 0px;
+}
+.menu-social li {
+    display: inline-block;
+    padding: 0px;
+}
+.menu-social li a {
+    padding: 7px;
+    font-size: 30px;
+    color: #7A674E;
+    -webkit-transition:all ease-in-out 1.5s;
+    transition: all ease-in-out 1.5s;
+}
+.menu-social li a:hover {
+    color: #9B8C67;
+    padding: 30px;
+}
