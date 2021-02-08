@@ -1,14 +1,14 @@
 @font-face {
     font-family: "CenturyGothic";
     src: url("../fonts/CenturyGothic.ttf");
-    font-family: "CenturyGothic";
-    src: url("../fonts/CenturyGothic.ttf");
+    font-family: "Californian FB Regular";
+    src: url("../fonts/Californian FB Regular.ttf");
 }
 
 body {
     font-size: 25px;
     line-height: 1.5;
-    font-family: 'CenturyGothic', sans-serif;
+    font-family: CenturyGothic;
     color: #7A674E;
     font-style: normal;
     overflow-x: hidden;
@@ -87,6 +87,7 @@ body {
     color: #7A674E;
     letter-spacing: 7px;
     padding-bottom: 20px;
+    font-family: Californian FB Regular;
 }
 .deep-footer .btn-arriba-footer{
     font-size: 30px;
