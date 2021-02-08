@@ -28,7 +28,7 @@ body {
 
 .cabecera img.logo {
     padding: 0%;
-    width: 15%;
+    width: 20%;
 }
 .cabecera i.menu-icono {
     font-size: 30px;
@@ -60,7 +60,9 @@ body {
     text-align: right;
     float: right;
 }
-
+.derecho li.separacion-menu{
+    padding: 0px 20px;
+}
 .deep-footer{
     bottom: 0;
     padding: 10px;
@@ -78,8 +80,9 @@ body {
 }
 
 .deep-footer .btn-titulo-footer{
-    font-size: 30px;
     color: #7A674E;
+    letter-spacing: 7px;
+    padding-bottom: 20px;
 }
 .deep-footer .btn-arriba-footer{
     font-size: 30px;
