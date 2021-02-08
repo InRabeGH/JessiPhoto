@@ -18,3 +18,11 @@
     margin-right: 0;
     margin-left: 0;
  }
+
+ .marguen-automatico, .marguen-maximo {
+    margin-right: auto!important;
+ }
+ 
+ .p-f{
+    display: flex;
+}

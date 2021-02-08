@@ -1,6 +1,8 @@
 @font-face {
     font-family: "CenturyGothic";
     src: url("../fonts/CenturyGothic.ttf");
+    font-family: "CenturyGothic";
+    src: url("../fonts/CenturyGothic.ttf");
 }
 
 body {
@@ -24,6 +26,7 @@ body {
 
 .cabecera a {
     color: #7A674E;
+    font-size: 20px;
 }
 
 .cabecera img.logo {
@@ -33,6 +36,9 @@ body {
 .cabecera i.menu-icono {
     font-size: 30px;
     color: #7A674E;
+}
+.separacion-menu{
+    padding: 0px 30px;
 }
 /*.tituloCategoria {
     position: relative;
@@ -52,17 +58,15 @@ body {
 .alturaPantallaCarrucel {
     height: 100%;
     width: 100%;
-    display: block;
-    padding-right: 10px;
+    
  }
+.div-carrucel{
+    height: 100%;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
-.derecho{
-    text-align: right;
-    float: right;
-}
-.derecho li.separacion-menu{
-    padding: 0px 20px;
-}
 .deep-footer{
     bottom: 0;
     padding: 10px;
