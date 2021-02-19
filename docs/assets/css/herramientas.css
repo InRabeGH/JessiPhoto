@@ -26,3 +26,11 @@
  .p-f{
     display: flex;
 }
+
+.modal-marguen {
+    margin: 10px auto;
+}
+
+.fondo {
+    background: rgb(0, 0, 0, 0.8);
+}
