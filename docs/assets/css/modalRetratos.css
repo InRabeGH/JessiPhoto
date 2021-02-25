@@ -45,3 +45,10 @@
     font-size: 46px;
     opacity: 1;
 }
+
+.tituloAlbum {
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: CenturyGothic;
+    color: #7A674E;
+}

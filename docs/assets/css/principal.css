@@ -170,8 +170,7 @@ body {
     -webkit-transition: all ease-in-out 1s;
     transition: all ease-in-out 1s;
     opacity: 0;
-    background: linear-gradient(to top,rgba(255,255,255,0) , rgba(0, 0, 0, .7) 50%,rgba(255,255,255,0));
-    background: radial-gradient(black 5%, rgb(0, 0, 0,.5) 25%, rgba(255, 255, 255, 0) 50%);
+    background: rgba(0, 0, 0, .4);
 }
 .caja-categoria:hover .informacion .texto-interior h5 {
     -webkit-transform: translateY(20px);
